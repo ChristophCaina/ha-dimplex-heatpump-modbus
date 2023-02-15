@@ -1,2 +1,2 @@
 # ha-dimplex-heatpump-modbus
-HomeAssistant Integration for Dimplex DHW300 Heatpump (Modbus)
+HomeAssistant Custom Component for reading data from Dimplex DHW300 Heatpump through ModbusTCP.
