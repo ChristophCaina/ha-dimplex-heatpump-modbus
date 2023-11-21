@@ -38,6 +38,10 @@ DIMPLEX_MODBUS_SCHEMA = vol.Schema(
     }
 )
 
+CONFIG_SCHEMA = vol.Schema(
+    {DOMAIN: vol.Schema({cv.slug: DIMPLEX_MODBUS_SCHEMA})}, extra=vol.ALLOW_EXTRA
+)
+
 PLATFORMS = ["number", "select", "sensor"]
 
 async def async_setup(hass, config):
@@ -121,6 +125,7 @@ class DimplexModbusHub:
         self._lock = threading.Lock()
         self._name = name
         self._address = address
+        """ Read configuration """
         self._scan_interval = timedelta(seconds=scan_interval)
         self._unsub_interval_method = None
         self._sensors = []
