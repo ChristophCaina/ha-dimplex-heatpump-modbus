@@ -1,0 +1,9 @@
+DOMAIN = "dimplex_modbus"
+DEFAULT_NAME = "dimplex"
+DEFAULT_SCAN_INTERVAL = 30
+DEFAULT_PORT = 1502
+DEFAULT_MODBUS_ADDRESS = 1
+CONF_DIMPLEX_HUB = "dimplex_hub"
+ATTR_STATUS_DESCRIPTION = "status_description"
+ATTR_MANUFACTURER = "Dimplex"
+CONF_MODBUS_ADDRESS = "modbus_address"
