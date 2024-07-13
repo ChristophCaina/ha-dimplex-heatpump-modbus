@@ -1,0 +1,12 @@
+{
+    "name": "Dimplex Modbus",
+    "version": "0.0.1",
+    "documentation": "https://github.com/ChristophCaina/ha-dimplex-heatpump-modbus",
+    "issue_tracker": "https://github.com/ChristophCaina/ha-dimplex-heatpump-modbus/issues",
+    "domain": "dimplex_modbus",
+    "config_flow": false,
+    "codeowners": ["@ChristophCaina"],
+    "iot_class": "local_push",
+    "dependencies": [],
+    "requirements": ["pymodbus==3.6.9"],
+}
