@@ -36,3 +36,4 @@ A possible way to implement could be the following repository: [@chripuf/smartho
             "outlet_heating_pump_M14" : {"type" : "coil", "address" : 59, "count" : 1},
             "outlet_heating_pump_M20" : {"type" : "coil", "address" : 61, "count" : 1}
 ```
+[Documentation of the Dimplex NWPM Extension](https://dimplex.atlassian.net/wiki/spaces/DW/overview#Datenpunktliste)
