@@ -1,4 +1,5 @@
 """The Dimplex Modbus Integration."""
+from __future__ import annotations
 
 from pymodbus.client import ModbusTcpClient
 from pymodbus.constants import Endian
@@ -14,6 +15,7 @@ from homeassistant.const import (
     CONF_SCAN_INTERVAL,
 )
 from homeassistant.core import HomeAssistant
+from homeassistant.exceptions import ConfigEntryNotReady
 from homeassistant.core import callback
 from homeassistant.helpers.event import async_track_time_interval
 from .const import (
@@ -21,7 +23,8 @@ from .const import (
     DEFAULT_NAME,
     DEFAULT_SCAN_INTERVAL,
     DEFAULT_MODBUS_ADDRESS,
-    CONF_MODBUS_ADDRESS,
+    CONF_MODBUS_IP_ADDRESS,
+    CONF_MODBUS_PORT,
 )
 
 _LOGGER = logging.getLogger(__name__)
