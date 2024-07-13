@@ -4,7 +4,7 @@ This requires the NWPM Touch extension installed on your Dimplex Heatpump
 
 **IMPORTANT**  
 unfortunately, this project is on hold - I consider to buy a dimplex heatpump, but I don't have one yet, so I can't really develop and test one.
-A possible way to implement could be the following repository: (@chripuf/smarthomeNG-DimplexWP)[https://github.com/chrpuf/smarthomeNG-DimplexWP]
+A possible way to implement could be the following repository: [@chripuf/smarthomeNG-DimplexWP](https://github.com/chrpuf/smarthomeNG-DimplexWP)
 
 **Modbus Datapoints taken from @chrpuf/smarthomeNG-DimplexWP:**
 ```
